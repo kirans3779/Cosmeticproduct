@@ -1,0 +1,290 @@
+.sub-heading {
+  font-family: "Allura", handwriting;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #b8b8b8;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 2.8rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.content {
+  font-family: "Cormorant", serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #7e7e7e;
+}
+
+button {
+  font-size: 1rem;
+  border-radius: 0;
+  padding-top: 15px;
+  padding-right: 35px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: black;
+  color: #ffffff;
+  border: none;
+}
+
+.outer_background {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(44, 163, 179, 0.6)), to(rgba(44, 163, 179, 0.6))), url("https://websitedemos.net/cosmetics-store-02/wp-content/uploads/sites/543/2020/02/bg-08-free-img.jpg");
+  background-image: linear-gradient(rgba(44, 163, 179, 0.6), rgba(44, 163, 179, 0.6)), url("https://websitedemos.net/cosmetics-store-02/wp-content/uploads/sites/543/2020/02/bg-08-free-img.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  background-color: #269fb7;
+  opacity: 0.82;
+}
+
+.fa-shopping-cart {
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar .nav-link {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "Cormorant", serif;
+  margin: 10px;
+}
+
+.navbar .fa-bars {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.nav {
+  color: #ffffff;
+}
+
+#testimonials {
+  position: relative;
+  background-color: #f8fbfb;
+  height: auto;
+}
+
+.outer_background_section2 {
+  background-image: url("http://developerpra.com/ecom/wp-content/uploads/2020/02/bg-10-free-img.jpg");
+}
+
+.contact_box {
+  padding: 5px;
+  position: relative;
+  top: 0;
+  height: auto;
+  background-color: #fff;
+  padding: 75px;
+  -webkit-box-shadow: 0 0 30px black;
+          box-shadow: 0 0 30px black;
+}
+
+label {
+  color: #7e7e7e;
+  font-family: "Cormorant", serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.form-control {
+  height: 3.5rem;
+  background-color: #fafafa;
+}
+
+.contact_box1 {
+  background-color: #ffffff;
+}
+
+.background_beauty {
+  height: 20rem;
+  width: 100%;
+}
+
+.follow {
+  font-family: "Allura", handwriting;
+  font-size: 2rem;
+  color: #000;
+}
+
+.contact_overlay {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), url("http://developerpra.com/ecom/wp-content/uploads/2020/02/bg-03-free-img.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("http://developerpra.com/ecom/wp-content/uploads/2020/02/bg-03-free-img.png");
+}
+
+.fab {
+  color: #b8b8b8;
+  margin-left: 20px;
+}
+
+.details {
+  color: #7e7e7e;
+  font-family: "Cormorant", serif;
+  font-size: 1.3rem;
+}
+
+iframe {
+  position: relative;
+  left: -150px;
+  height: 300px;
+  width: 500px;
+  border: 2px solid white;
+}
+
+.brand_img {
+  height: 2rem;
+  z-index: 2;
+}
+
+p,
+.username {
+  color: #7e7e7e;
+  font-family: "Cormorant", serif;
+  font-size: 1.5rem;
+}
+
+.profile {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#contact {
+  height: 100%;
+  width: 100%;
+  background-image: url("../image/bg-overlay-01-free-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #fbfbfb;
+}
+
+#contact .form-control {
+  background-color: transparent;
+  color: #666;
+  font-size: 1.2rem;
+  padding: 0.75em;
+  font-family: "Cormorant", serif;
+}
+
+#contact .btn {
+  background-color: #000;
+  color: #ffffff;
+  border-radius: 0;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #000;
+  color: #ffffff;
+}
+
+footer h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400px;
+}
+
+footer .address,
+footer .links {
+  font-family: "Cormorant", serif;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+footer .address p,
+footer .links p {
+  line-height: 10px;
+}
+
+footer img {
+  text-align: center;
+  height: 4rem;
+  width: 8rem;
+}
+
+footer .footer_content {
+  font-family: "Cormorant", serif;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+  .heading {
+    font-size: 1rem;
+  }
+  .inner-content_section1 {
+    padding: 10px;
+    position: relative;
+    top: 0;
+  }
+  .inner-content_section1 h1 {
+    font-size: 1.8rem;
+  }
+  footer {
+    text-align: center;
+  }
+  .content {
+    font-family: "Cormorant", serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #7e7e7e;
+  }
+  iframe {
+    position: relative;
+    left: 0px;
+    height: auto;
+    width: 100%;
+    border: 2px solid white;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  iframe {
+    position: relative;
+    left: 0px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

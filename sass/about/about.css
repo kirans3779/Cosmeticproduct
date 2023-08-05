@@ -1,0 +1,243 @@
+.fa-shopping-cart {
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+.outer_background {
+  height: 50vh;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(44, 163, 179, 0.986)), to(rgba(0, 0, 0, 0.884))), url("../../image/bg-05-free-img.jpg");
+  background-image: linear-gradient(rgba(44, 163, 179, 0.986), rgba(0, 0, 0, 0.884)), url("../../image/bg-05-free-img.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  background-color: #269fb7;
+  opacity: 0.82;
+}
+
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.brand_img {
+  height: 2rem;
+  z-index: 2;
+}
+
+.fa-shopping-cart {
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar .nav-link {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "Cormorant", serif;
+  margin: 10px;
+}
+
+.navbar .fa-bars {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.nav {
+  color: #ffffff;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.sub-heading {
+  font-family: "Allura", handwriting;
+  font-size: 1.5789473684211rem;
+  font-weight: 500;
+  color: #b8b8b8;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 2.8rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.content {
+  font-family: "Cormorant", serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #7e7e7e;
+}
+
+button {
+  font-size: 0.6rem;
+  border-radius: 0;
+  padding-top: 15px;
+  padding-right: 35px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#about {
+  position: relative;
+}
+
+#about .about {
+  position: relative;
+  height: 100vh;
+  background-image: url("../../image/bg-overlay-02-free-img.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.025;
+}
+
+#about .about_img {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+#about .fa-caret-right {
+  font-size: 12px;
+  margin: 10px;
+}
+
+#about li {
+  list-style-type: none;
+}
+
+.card {
+  border: none;
+  margin: 10px;
+}
+
+.new_look_outer {
+  margin-top: 200px;
+  background-color: #fbfbfb;
+}
+
+button {
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  font-size: 0.6rem;
+  background-color: #000;
+  width: 180px;
+  border-radius: 0;
+  color: #ffffff;
+}
+
+#swiper {
+  position: relative;
+  top: 100px;
+  background-color: #fbfbfb;
+}
+
+#swiper .fas {
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  color: #7e7e7e;
+  border: 2px solid gray;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swipe {
+  position: relative;
+  top: -80px;
+}
+
+footer {
+  background-color: #000;
+  color: #ffffff;
+}
+
+footer h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400px;
+}
+
+footer .address,
+footer .links {
+  font-family: "Cormorant", serif;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+footer .address p,
+footer .links p {
+  line-height: 10px;
+}
+
+footer img {
+  text-align: center;
+  height: 4rem;
+  width: 8rem;
+}
+
+footer .footer_content {
+  font-family: "Cormorant", serif;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+  .heading {
+    font-size: 1rem;
+  }
+  .inner-content_section1 {
+    padding: 10px;
+    position: relative;
+    top: 0;
+  }
+  .inner-content_section1 h1 {
+    font-size: 1.8rem;
+  }
+  footer {
+    text-align: center;
+  }
+  .content {
+    font-family: "Cormorant", serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #7e7e7e;
+  }
+}
+/*# sourceMappingURL=about.css.map */
