@@ -40,7 +40,6 @@ p {
 .review_details .container {
   border: 1px solid #b8b8b8;
 }
-
 .review_details .rating {
   color: skyblue;
 }
@@ -97,7 +96,6 @@ button {
 .navbar {
   background-color: transparent;
 }
-
 .navbar .nav-link {
   font-size: 1.5rem;
   font-weight: 500;
@@ -105,7 +103,6 @@ button {
   font-family: "Cormorant", serif;
   margin: 10px;
 }
-
 .navbar .fa-bars {
   background-color: transparent;
   color: #b8b8b8;
@@ -117,7 +114,7 @@ button {
 
 .sub-heading {
   font-family: "Allura", handwriting;
-  font-size: 1.5789473684211rem;
+  font-size: 1.5789473684rem;
   font-weight: 500;
   color: #b8b8b8;
 }
@@ -138,27 +135,22 @@ h2 {
 .box {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 .box .box_head {
   background-color: #f7f6f7;
   padding: 15px;
 }
-
 .box .item {
   padding: 15px;
 }
-
 .box .item span {
   color: #000;
   font-family: 800;
   font-family: "Cormorant", serif;
   font-size: 1.4rem;
 }
-
 .box .item .price2 {
   margin-left: 150px;
 }
-
 .box .item .price21 {
   margin-left: 180px;
 }
@@ -175,7 +167,6 @@ thead {
   background-color: #f7f6f7;
   padding: 20px;
 }
-
 thead td {
   padding: 10px;
 }
@@ -236,31 +227,26 @@ footer {
   background-color: #000;
   color: #ffffff;
 }
-
 footer h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.7rem;
   font-weight: 400px;
 }
-
 footer .address,
 footer .links {
   font-family: "Cormorant", serif;
   font-size: 1.3rem;
   letter-spacing: 1px;
 }
-
 footer .address p,
 footer .links p {
   line-height: 10px;
 }
-
 footer img {
   text-align: center;
   height: 4rem;
   width: 8rem;
 }
-
 footer .footer_content {
   font-family: "Cormorant", serif;
   font-size: 1.3rem;
@@ -282,5 +268,4 @@ footer .footer_content {
   .inner-content_section1 h1 {
     font-size: 1.8rem;
   }
-}
-/*# sourceMappingURL=cart.css.map */
+}/*# sourceMappingURL=cart.css.map */

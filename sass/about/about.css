@@ -6,7 +6,6 @@
 .outer_background {
   height: 50vh;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(44, 163, 179, 0.986)), to(rgba(0, 0, 0, 0.884))), url("../../image/bg-05-free-img.jpg");
   background-image: linear-gradient(rgba(44, 163, 179, 0.986), rgba(0, 0, 0, 0.884)), url("../../image/bg-05-free-img.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -34,7 +33,6 @@
 .navbar {
   background-color: transparent;
 }
-
 .navbar .nav-link {
   font-size: 1.5rem;
   font-weight: 500;
@@ -42,7 +40,6 @@
   font-family: "Cormorant", serif;
   margin: 10px;
 }
-
 .navbar .fa-bars {
   background-color: transparent;
   color: #ffffff;
@@ -62,7 +59,7 @@ h1 {
 
 .sub-heading {
   font-family: "Allura", handwriting;
-  font-size: 1.5789473684211rem;
+  font-size: 1.5789473684rem;
   font-weight: 500;
   color: #b8b8b8;
 }
@@ -110,7 +107,6 @@ button {
 #about {
   position: relative;
 }
-
 #about .about {
   position: relative;
   height: 100vh;
@@ -120,18 +116,15 @@ button {
   background-size: contain;
   opacity: 0.025;
 }
-
 #about .about_img {
   height: 100%;
   width: 100%;
   text-align: center;
 }
-
 #about .fa-caret-right {
   font-size: 12px;
   margin: 10px;
 }
-
 #about li {
   list-style-type: none;
 }
@@ -164,7 +157,6 @@ button {
   top: 100px;
   background-color: #fbfbfb;
 }
-
 #swiper .fas {
   font-size: 25px;
   padding: 20px;
@@ -184,31 +176,26 @@ footer {
   background-color: #000;
   color: #ffffff;
 }
-
 footer h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.7rem;
   font-weight: 400px;
 }
-
 footer .address,
 footer .links {
   font-family: "Cormorant", serif;
   font-size: 1.3rem;
   letter-spacing: 1px;
 }
-
 footer .address p,
 footer .links p {
   line-height: 10px;
 }
-
 footer img {
   text-align: center;
   height: 4rem;
   width: 8rem;
 }
-
 footer .footer_content {
   font-family: "Cormorant", serif;
   font-size: 1.3rem;
@@ -239,5 +226,4 @@ footer .footer_content {
     font-weight: 500;
     color: #7e7e7e;
   }
-}
-/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=about.css.map */
